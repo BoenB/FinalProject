@@ -42,7 +42,7 @@ class InventoryGUI:
         self.delete_id_entry = tk.Entry(self.root)
         self.delete_id_entry.grid(row=4, column=1)
         tk.Button(self.root, text="Delete Product", command=self.delete_product).grid(row=5, column=0, columnspan=2)
-        tk.label(self.root, text="Product ID:").grid(row=6, column=0)
+        tk.Label(self.root, text="Product ID:").grid(row=6, column=0)
         self.product_id_entry = tk.Entry(self.root)
         self.product_id_entry.grid(row=6, column=1)
         tk.Label(self.root, text="Quantity:").grid(row=7, column=0)
